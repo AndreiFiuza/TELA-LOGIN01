@@ -19,7 +19,7 @@ async function loginUser(email, senha) {
             localStorage.setItem("token", data.token);
             localStorage.setItem("userId", data.user.id);
             alert("Login realizado com sucesso!");
-            window.location.href = ""; // Feed
+            window.location.href = "https://andreifiuza.github.io/TELA-FEED01/";
         } else {
             errorMessage.textContent = "Email ou senha inválidos. Tente novamente.";
         }
